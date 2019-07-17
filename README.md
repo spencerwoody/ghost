@@ -1,8 +1,9 @@
 
-# Reproducible code for model summary and projections paper
+# Code for model summary and projections paper
 
 ["Model interpretation through lower-dimensional posterior
-summarization"][arXiv] by Spencer Woody, Carlos M. Carvalho, and Jared
+summarization"][arXiv]  
+by Spencer Woody, Carlos M. Carvalho, and Jared
 S. Murray
 
 ## Contents
@@ -30,17 +31,16 @@ S. Murray
 - `R/` contains R functions for the rest of the analysis.
 - `src/` contains source C++ functions used in R scripts.
 - `data/` contains the California housing price data.
-- `figures` is an empty directory for storing generated graphics.
-- `R-output` is an empty directory for storing intermediate R output,
-  since the California analysis contains multiple steps.
+<!-- - `figures` is an empty directory for storing generated graphics. -->
+<!-- - `R-output` is an empty directory for storing intermediate R output, -->
+<!--   since the California analysis contains multiple steps. -->
 
 Details for these analyses can be found in the original paper. 
 
 ## Contact
 
-Spencer Woody  
+[Spencer Woody][Personal website]  
 Statistics PhD Candidate, UT-Austin  
-[Personal website]  
 Email: `spencer.woody@utexas.edu`
 
 [arXiv]: https://arxiv.org/abs/1905.07103 
