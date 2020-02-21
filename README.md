@@ -9,10 +9,16 @@ S. Murray
 ## Contents
 
 - `toy-sigmoid-example.R` contains code for the toy example in Section
-  1.3 which illustrates our summarization approach.
+  XX which illustrates how our summarization approach can approximate
+  the partial effects in nonparametric regression models. 
+- `sim-itx-search.R` contains code for the simulation example in
+  Section XX which demonstrates our method for discovering the most
+  significant interactions present in nonparametric regression models.
+  This script creates 20 simulations, while `sim-itx-search-big.R`
+  contains 1000 simulations.
 - `crime-example.R` contains code for the linear summary of linear
   regression model used the crime example regression analysis in
-  Section 2.1.
+  Section XX.
 - `CA-example-[xxx].R` these scripts replicate the extensive case study
   of Section 4, summarizing a nonparametric regression model for
   housing prices in California at the census tract level. 

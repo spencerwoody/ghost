@@ -36,6 +36,8 @@ XtXinv <- solve(crossprod(cbind(xp)))
 betaPoint <- crossprod(XtXinv, crossprod(xp, yhat))
 betaPost <- crossprod(XtXinv, crossprod(xp, yhatSamples))
 
+gammaLin <- xp %*% betaPost
+
 ## Posterior mean and credible intervals 
 betaMean <- rowMeans(betaPost)
 betalo <- apply(betaPost, 1, quantile, probs = alpha / 2)
