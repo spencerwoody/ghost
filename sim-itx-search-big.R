@@ -238,8 +238,6 @@ rsqDfSummary <- rsqDfSummaryList %>% plyr::rbind.fill(rsqDfSummaryList)
 
 save.image("R-output/itx-search-big.Rdata")
 
-load("newsim-big.Rdata")
-
 load("R-output/itx-search-big.Rdata")
 
 ## Rank simulations by R^2_\gamma of (x1, x2) interaction for easier plotting later
